@@ -1,0 +1,11 @@
+11.Create s3 bucket
+1. Make the bucket policy public 
+2. make the bucket accessible to only your a limited user accounts and ips
+
+
+1.create a bucket
+2.go to permission and uncheck Block all permission
+3.go to policies in permission in S3 of our S3 bucket.
+4.click edit 
+5.add policy for acdessible only to one iam user in json
+6.add policy for accessible only for a given ips in json 
