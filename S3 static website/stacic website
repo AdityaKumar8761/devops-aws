@@ -1,0 +1,14 @@
+Configure S3 Static Website:
+* Create an S3 bucket
+* Enable static website hosting
+* Upload an HTML page
+* Configure bucket policy for public read access
+* Enable versioning
+
+
+1.create a s3 bucket
+2.block all access
+3.upload the pyhon file
+4.manage plicies
+5.get the url and start the static website
+
