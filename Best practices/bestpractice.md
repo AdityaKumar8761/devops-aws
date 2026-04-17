@@ -1,17 +1,7 @@
-
-
-5.[14:06, 5/2/2026] Himanshu Sir: Establish path based routing using load balancer:
-Domain.com/videos ->
-Should go Target group with videos.
-Domain.com/images ->
-Should go Target group with images.
-Establish this. Need to be completed by tomorrow.
-[14:07, 5/2/2026] Himanshu Sir: Once completed through load balancer map this with route 53
-
-
-
-
-
-
+Implement IAM Best Practices
+* Create IAM groups: Admin, Dev, ReadOnly
+* Apply least privilege policies
+* Enable MFA for root
+* Create custom policy for S3 restricted folder access
 
 
