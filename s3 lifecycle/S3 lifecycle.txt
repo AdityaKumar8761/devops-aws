@@ -1,0 +1,10 @@
+S3 lifecycle
+
+1. select S3 bucket ->managenment -> click create lifecycle
+2. select the type of rule
+(name the lifecycle rule)
+->Transition current versions of objects between storage classes
+3.add standard a with number of day
+4.add 2nd parameter with number of day
+5.add 3rd parameter with number of day  (parameter type of storage)
+6.click create lifecytcle
