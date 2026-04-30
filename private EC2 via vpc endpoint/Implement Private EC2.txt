@@ -1,0 +1,30 @@
+Implement Private EC2 with S3 Access via VPC Endpoint
+Create Gateway VPC Endpoint for S3
+Remove NAT Gateway
+Ensure private EC2 can:
+* Access S3
+* Cannot access internet
+Validate using CLI
+
+
+
+
+1. create vpc
+2. create private subnet
+3. create route table 
+4. associate route table
+5. Create vpc endpoint for S3 only
+6. create iam policy Ec2  then attach the S3 policy
+	aws iam attach-role-policy \
+  --role-name EC2Role \
+  --policy-arn arn:aws:iam::aws:policy/S3accessforPirvateEC2
+  
+7.create instance profile and add role to instance policy
+
+8. aws ec2 run instance\
+-- image-id
+---all the data
+
+9.to validate connect with ec2 and click ping google.com
+10.to validate aws ec2 describe-instances --region sa-east-1 --query "Reservations[].Instances[].{ID:InstanceId,Name:Tags[?Key=='Name']|[0].Value}" --output table
+

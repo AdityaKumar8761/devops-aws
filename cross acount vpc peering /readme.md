@@ -1,3 +1,17 @@
+Build a Hub-and-Spoke VPC Architecture
+
+Create:
+* 1 Hub VPC
+* 2 Spoke VPCs
+* Connect them using VPC Peering
+
+Ensure:
+* Spoke1 can talk to Hub
+* Spoke2 can talk to Hub
+* Spoke1 CANNOT talk to Spoke2
+* Use route tables to control traffic
+
+
 Question
 Create 2 VPC's inside 2 different AWS Accounts
 Keep CIDR range mutually exclusive
@@ -12,3 +26,5 @@ Establish SSH connection from pvt-01  to pvt-02
 4.create a security group with all IGMP add the ip of the receiver
 5.create ec2 on both 
 6.ping <the other ip >
+
+
